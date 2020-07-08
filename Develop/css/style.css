@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* slider */
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    z-index: -1;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    opacity: 0.7;
+    font-size: 23px;
+    padding: 35px;
+    line-height: 2rem;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav {
+      width: 100% !important;
+      padding: 4%;
+    }
+  }
+
+#home,
+#portfolio,
+#about {
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+#contact {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+#home:hover,
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+    opacity: 0.5;
+    transition: transform 150ms;
+    transform: translateY(-3px);
+}
+
+/* image */
+section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* name */
+.hero {
+    text-align: center;
+    height: 140%;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+#me {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#me::after {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    opacity: 1;
+}
+
+#name {
+    font-size: 90px;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    top: 45%;
+    left: 33%;
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #name {
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 50%;
+      font-size: 50px;
+    }
+  }
+  
+/* footer */ 
+#footer {
+    clear: both;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    opacity: 0.7;
+    bottom: 0;
+  }
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#footer {
+    font-size: 12px;
+}
+}
