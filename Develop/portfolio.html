@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./css/portfolio.css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar">
+    <a class="nav-link" id="home" href="./index.html">Home</a>
+    
+    <a class="nav-link" id="about" href="./about.html">About</a>
+
+    <a class="nav-link" id="portfolio" href="./portfolio.html">Portfolio</a>
+
+    <a class="nav-link" id="contact" href="./contact.html">Contact</a>
+</nav>
+
+<div class="back2" id="fullpage">
+
+  <!-- header -->
+  <!-- <header>
+      <nav>
+        <a href="./contact.html" class="black" id="cont">Contact</a>
+        <a href="./index.html" class="black" id="home">Home</a><br>
+        <a href="./portfolio.html" class="black" id="port">Portfolio</a><br>    
+        <a href="./about.html" class="black" id="abt">About</a>
+    </nav>
+  </header> -->
+
+
+    <section class="show-case">
+      <h1 id="folio">Portfolio</h1>
+      <div>
+        <a class="go-to" id="port" href="./portrait.html">
+          <h2 id="port-title">Portrait</h2>
+          <img class="img" data-aos="fade-right" data-aos-delay="300" id="portrait" src="./images/portrait/1jide.jpg">
+          </img>
+        </a>
+        <div>
+          <a class="info" id="port-info" href="./portrait.html">
+            <h2>Portrait</h2>
+          </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" id="pro" href="./product.html">
+          <h2 id="pro-title">Product</h2>
+          <img class="img" id="product" src="./images/product/1doubleK.jpg">
+        </a>
+        <div>       
+            <a class="info" id="pro-info" href="./product.html">
+              <h2>Product</h2>
+            </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" href="./couples.html">
+          <h2 id="couple-title">Couples</h2>
+          <img class="img" id="couple" src="./images/couples/1ponds.JPG">
+        </a>
+        <div>
+          <a class="info" id="couple-info" href="./couples.html">
+            <h2>Couples</h2>
+          </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" href="./event.html">
+          <h2 id="event-title">Event</h2>
+          <img class="img" id="event" src="./images/events/1event.JPG">
+        </a>
+        <div>
+          <a class="info" id="event-info" href="./event.html">
+            <h2>Event</h2>
+          </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" href="./maternity.html">
+          <h2 id="maternity-title">Maternity</h2>
+          <img class="img" id="maternity" src="./images/maternity/1maternity.JPG">
+        </a>
+        <div>
+          <a class="info" id="mat-info" href="./maternity.html">
+            <h2>Maternity</h2>
+          </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" href="./alt.html">
+          <h2 id="alt-title">Alternative</h2>
+          <img class="img" id="alt" src="./images/body/1body.JPG">
+        </a>
+        <div>
+          <a class="info" id="alt-info" href="./alt.html">
+            <h2>Alternative</h2>
+          </a>
+        </div>
+      </div>
+      <div>
+        <a class="go-to" href="./landscape.html">
+          <h2 id="land-title">Architecture</h2>
+          <img class="img" id="landscape" src="./images/landscape/1landscape.JPG">
+        </a>
+        <div>
+          <a class="info" id="land-info" href="./landscape.html">
+            <h2>Architecture</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+</div>
+
+<!-- footer -->
+<footer id="portfolio-footer">
+  All rights reserved @Maya Chisem 2020
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"></script>
+<script src="./js/portfolio.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
