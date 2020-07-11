@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .nav-link:hover {
@@ -23,6 +23,7 @@ body {
     transition: transform 150ms;
     transform: translateY(-3px);
 }
+
 
 /* background */
 section {

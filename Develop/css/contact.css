@@ -12,7 +12,7 @@
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .nav-link:hover {
@@ -20,6 +20,13 @@
     transition: transform 150ms;
     transform: translateY(-3px);
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #contact {
+        color: #007bff !important;
+    }
+  }
 
 /* contact area */
 .container {

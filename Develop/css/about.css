@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-}
-
 /* navbar */
 .navbar {
     width: 100% !important;
@@ -39,14 +35,19 @@ body {
     top: 27%;
     text-align: center;
     position: absolute;
+    padding-bottom: 3%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        top: 15%;
+        padding-bottom: 15%;
+    }
+  }
 
 h1 {
     font-size: 3rem !important;
-    /* color: black !important; */
-    /* -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black; */
-    /* padding: 13px; */
 }
 
 p,
@@ -74,8 +75,17 @@ img {
 
 /* footer */
 footer {
-    position: absolute;
-    bottom: 0.5%;
+    position: relative;
+    margin-top: 51.5%;
     width: 100%;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    footer {
+        color: white;
+        z-index: -3;
+        display: none;
+        }
+  }
