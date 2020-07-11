@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* navbar */
 .navbar {
     width: 100% !important;
@@ -60,11 +64,24 @@ h1 {
   }
 
 aside {
-    margin-left: 9%;
+    /* margin-left: 9%; */
     text-align: left;
     margin-top: 5%;
     font-size: 22px;
     animation: aside 3s;
+}
+
+img {
+    height: 70vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: me 3s;
+}
+
+@keyframes me {
+    0% {margin-right: -300px;}
+    100% {margin-right: 0;}
 }
 
 /* footer */
