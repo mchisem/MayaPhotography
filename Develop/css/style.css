@@ -14,11 +14,6 @@ body {
     justify-content: flex-start !important;
 }
 
-#contact {
-    justify-self: flex-end !important;
-    justify-self: self-end !important;
-}
-
 .nav-link {
     color: white;
 }
