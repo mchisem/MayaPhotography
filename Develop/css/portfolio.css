@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+            background-color: black;
+        }
+    }
+
 /* navbar */
 .navbar {
     width: 100% !important;
@@ -23,16 +30,31 @@
     transform: translateY(-3px);
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #portfolio {
+            color: cornflowerblue;
+        }
+    }
+
+/* title */
 h1 {
     font-size: 40px !important;
     position: absolute;
     top: 15%;
-    color: black;
     left: 0;
     right: 0;
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1 {   
+            display: none;
+        }
+    }
+
+/* image grid */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +62,14 @@ h1 {
     width: 101%;
     justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .row {
+            width: 110%;
+            background-color: black;
+        }
+    }
 
 img {
     vertical-align: middle;
@@ -51,6 +81,8 @@ img {
 footer {
     position: relative;
     width: 100%;
+    padding-top: 4%;
+    padding-bottom: 0.5%;
     text-align: center;
     color: black;
 }
