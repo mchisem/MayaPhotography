@@ -38,9 +38,6 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
-    /* color: white !important; 
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;  */
 }
 
 @media only screen and (max-width: 768px) {
