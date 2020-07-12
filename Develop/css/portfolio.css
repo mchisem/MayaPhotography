@@ -111,7 +111,7 @@ img {
     /* For mobile phones: */
     img {
             width: 100% !important;
-            height: 44vh !important;
+            height: 50vh !important;
         }
     }
 
@@ -132,7 +132,7 @@ img {
     height: 65%;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .hover {
@@ -145,15 +145,6 @@ img {
     height: 65.5%;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .overlay,
-    .hover,
-    .screen {
-            display: none;
-        }
-    }
-
 .overlay:hover,
 .hover:hover,
 .screen:hover {
@@ -165,6 +156,22 @@ img {
     .overlay:hover,
     .hover:hover,
     .screen:hover {
+            display: none;
+        }
+    }
+
+.overlay p,
+.hover p,
+.screen p {
+    z-index: 999;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .overlay,
+    .hover,
+    .screen {
             display: none;
         }
     }
