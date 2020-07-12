@@ -4,6 +4,44 @@
     box-sizing: border-box;
 }
 
+/* loader */
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid white;
+    animation: loader 3s infinite ease-in;
+}
+
+.loader-inner {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    background-color: white;
+}
+
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}  
+}
+
 /* navbar */
 .navbar {
     width: 100% !important;
