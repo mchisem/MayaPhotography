@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <!-- loader -->
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+    </div>
+
     <!-- navbar -->
     <nav class="navbar">
         <a class="nav-link" id="home" href="./index.html">Home</a>
@@ -28,21 +36,23 @@
         <a id="prev" class="fa fa-arrow-left" href="./alternative.html"></a>
     </div>
 
+    <!-- image container -->
     <div class="container">  
-        <img class="image" src="./images/landscape/2landscape.JPG">
+        <img class="image" src="./images/landscape/2landscape.JPG" alt="">
 
-        <img class="image"  src="./images/landscape/3landscape.JPG">
+        <img class="image"  src="./images/landscape/3landscape.JPG" alt="">
 
-        <img class="image" src="./images/landscape/5lanscape.JPG">
+        <img class="image" src="./images/landscape/5lanscape.JPG" alt="">
 
-        <img class="image" src="./images/landscape/4landscape.JPG">
+        <img class="image" src="./images/landscape/4landscape.JPG" alt="">
 
-        <img class="image" src="./images/landscape/6landscape.JPG">
+        <img class="image" src="./images/landscape/6landscape.JPG" alt="">
 
-        <img class="image" src="./images/landscape/7lansscape.JPG">
+        <img class="image" src="./images/landscape/7lansscape.JPG" alt="">
 
     </div>
 
+    <!-- picture pop out -->
     <div id="back" class="hide"></div>
 
     <div class="hide" id="content">
@@ -50,6 +60,7 @@
         <span class="hide" id="close">&times;</span>
     </div>
 
+    <!-- footer -->
     <footer>
         <div id="top">
             <a href="https://www.instagram.com/mayachizam/" class="fa fa-instagram"> Instagram</a>
@@ -58,6 +69,8 @@
         </div>
     </footer>
     
-<script src="js/picture.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/portfolio.js"></script>
+<script src="./js/picture.js"></script>
 </body>
 </html>
