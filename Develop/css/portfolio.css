@@ -78,7 +78,8 @@ img {
 
 /* overlay */
 .overlay,
-.hover {
+.hover,
+.screen {
     position: absolute;
     bottom: -.5%;
     transition: .5s ease;
@@ -95,8 +96,19 @@ img {
     font-size: 25px;
 }
 
+.hover {
+    top: 100.4%;
+    height: 64.6%;
+}
+
+.screen {
+    top: 164.9%;
+    height: 65.5%;
+}
+
 .overlay:hover,
-.hover:hover {
+.hover:hover,
+.screen:hover {
     opacity: 0.7;
 }
 
