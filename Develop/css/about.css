@@ -29,13 +29,6 @@
     z-index: 999;
 }
 
-.loader-inner {
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    background-color: white;
-}
-
 @keyframes loader {
     0% { transform: rotate(0deg);}
     25% { transform: rotate(180deg);}
@@ -72,7 +65,7 @@
 .container {
     left: 0;
     right: 0;
-    top: 27%;
+    top: 30%;
     text-align: center;
     position: absolute;
     padding-bottom: 3%;
