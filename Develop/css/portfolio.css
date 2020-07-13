@@ -115,6 +115,21 @@ img {
         }
     }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .img::after {
+        content: "";
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; 
+        opacity: 1;
+        z-index: 999;
+        }
+    }
+    
 /* overlay */
 .overlay,
 .hover,

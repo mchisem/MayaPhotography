@@ -164,6 +164,8 @@ body {
       height: 100%;
       padding: 2%;
       margin: 0;
+      margin-bottom: 0;
+      text-align: center;
     }
   }
 
