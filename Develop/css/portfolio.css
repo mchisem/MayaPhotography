@@ -110,11 +110,16 @@ img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     img {
-            width: 100% !important;
-            height: 50vh !important;
-        }
+        width: 100% !important;
+        height: 40vh !important;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        margin-bottom: 0;
+        text-align: center;
     }
-
+    }
+    
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .img::after {
@@ -129,7 +134,7 @@ img {
         z-index: 999;
         }
     }
-    
+
 /* overlay */
 .overlay,
 .hover,
