@@ -94,7 +94,7 @@ h1 {
     /* For mobile phones: */
     .row {
             width: 105%;
-            padding-top: 7%;
+            padding-top: 0%;
             background-color: black;
         }
     }
