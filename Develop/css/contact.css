@@ -70,6 +70,13 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        top: 20%;
+    }
+  }
+
 h1 {
     font-size: 3rem !important;
 }
@@ -86,3 +93,10 @@ footer {
     text-align: center;
     bottom: 0.5%;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    footer {
+        display: none;
+    }
+  }
