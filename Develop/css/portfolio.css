@@ -157,7 +157,6 @@ footer {
     h1 {   
             font-size: 35px !important;
             position: relative !important;
-            z-index: 999 !important;
             padding-bottom: 2%;
         }
 
