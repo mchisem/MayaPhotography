@@ -108,8 +108,10 @@ img {
 
 /* footer */
 footer {
-    position: relative !important;
+    position: absolute !important;
     width: 100% !important;
+    /* top: 115%; */
+    bottom: -25% ;
     padding-top: 4% !important;
     padding-bottom: 0.5% !important;
     text-align: center !important;
