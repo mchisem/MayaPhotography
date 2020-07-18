@@ -253,8 +253,8 @@ body {
         height: 73vh;
         padding: 5%;
         margin: 0 !important;
-        /* left: -1% !important; */
-        padding-right: 6% !important;
+        left: 0% !important;
+        right: 0 !important;
         top: 18%;
       }
     
