@@ -252,16 +252,16 @@ body {
         height: 73vh;
         padding: 5%;
         margin: 0;
-        left: 0;
+        left: 0 !important;
         right: 0;
-        top: 19%;
+        top: 18%;
         justify-self: center;
         text-align: center;
       }
     
     #close {
         right: 0;
-        top: 14%;
+        top: 12%;
     }
   }
 
