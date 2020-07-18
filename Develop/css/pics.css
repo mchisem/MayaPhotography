@@ -171,7 +171,7 @@ body {
 .modal-content {
     position: fixed;
     top: 13.5%;
-    left: 32%;
+    left: 31%;
     justify-self: center;
     height: 80vh;
     z-index: 999;
