@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
+/****************/
 /* loader */
+/****************/
 .loader-wrapper {
     width: 100%;
     height: 100%;
@@ -24,7 +26,6 @@
     height: 50px;
     position: relative;
     border: 4px solid white;
-    /* border-radius: 100%; */
     animation: loader 3s infinite ease-in;
     z-index: 999;
 }
@@ -37,7 +38,9 @@
     100% { transform: rotate(360deg);}  
 }
 
+/****************/
 /* navbar */
+/****************/
 .navbar {
     width: 100% !important;
     justify-content: flex-start !important;
@@ -56,13 +59,6 @@
     transform: translateY(-3px);
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #portfolio {
-            color: #007bff !important;
-        }
-    }
-
 /* title */
 h1 {
     position: absolute;
@@ -72,13 +68,6 @@ h1 {
     right: 0;
     text-align: center;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    h1 {   
-            display: none;
-        }
-    }
 
 /* image grid */
 .row {
@@ -90,15 +79,6 @@ h1 {
     padding-left: 0.7%;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .row {
-            width: 105%;
-            padding-top: 16%;
-            background-color: black;
-        }
-    }
-
 img {
     vertical-align: middle;
     height: 65vh;
@@ -106,34 +86,6 @@ img {
     padding-left: 0%;
     display: block;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    img {
-        width: 100% !important;
-        height: 40vh !important;
-        margin: 0;
-        padding: 0;
-        left: 0;
-        margin-bottom: 0;
-        text-align: center;
-    }
-    }
-    
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .img::after {
-        content: "";
-        background-color: black;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0; 
-        opacity: 1;
-        z-index: 999;
-        }
-    }
 
 /* overlay */
 .overlay,
@@ -171,15 +123,6 @@ img {
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .overlay:hover,
-    .hover:hover,
-    .screen:hover {
-            display: none;
-        }
-    }
-
 .overlay p,
 .hover p,
 .screen p {
@@ -187,16 +130,9 @@ img {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .overlay,
-    .hover,
-    .screen {
-            display: none;
-        }
-    }
-
+/****************/
 /* footer */
+/****************/
 footer {
     background-color: black;
     position: relative;
@@ -206,3 +142,57 @@ footer {
     text-align: center;
     color: white;
 }
+
+/*****************/
+/*****************/
+/* media queries */
+/****************/
+/****************/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #portfolio {
+            color: #007bff !important;
+        }
+
+    h1 {   
+            font-size: 35px !important;
+            position: relative !important;
+            z-index: 999 !important;
+            padding-bottom: 2%;
+        }
+
+    .row {
+        width: 105%;
+        padding-top: 25%;
+        text-align: center !important;
+    }
+
+    img {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        left: 0 !important;
+        margin-bottom: 0 !important;
+        text-align: center !important;
+    }
+
+    img::after {
+        content: "";
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; 
+        opacity: 1;
+        z-index: 999;
+        }
+
+    .overlay,
+    .hover,
+    .screen {
+            display: none;
+        }
+    }
+
