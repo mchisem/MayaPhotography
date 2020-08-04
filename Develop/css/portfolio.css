@@ -80,7 +80,7 @@ h1 {
 }
 
 img {
-    vertical-align: middle;
+    vertical-align: middle !important;
     height: 65vh;
     margin: 0;
     padding-left: 0%;
